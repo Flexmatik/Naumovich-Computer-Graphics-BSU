@@ -148,7 +148,7 @@ RasterApp::RasterApp() : m_vbox(Gtk::ORIENTATION_VERTICAL, 6) {
     m_chk_circle.set_label("Окр. Брезенхема (Purple)"); m_grid.attach(m_chk_circle, col, r_algo++, 2, 1);
     
     // Бонусы
-    m_chk_aa.set_label("Сглаживание Ву (Black)"); m_grid.attach(m_chk_aa, col, r_algo++, 2, 1);
+    m_chk_aa.set_label("Сглаживание By (Black)"); m_grid.attach(m_chk_aa, col, r_algo++, 2, 1);
     m_chk_bezier.set_label("Безье (Orange)"); m_grid.attach(m_chk_bezier, col, r_algo++, 2, 1);
     m_chk_castle.set_label("Кастла-Питвея (Cyan)"); m_grid.attach(m_chk_castle, col, r_algo++, 2, 1);
 
